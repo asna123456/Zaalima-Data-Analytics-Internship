@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Dataset-ile numeric columns mathram edukkunnu
-# 'Monetary' ivide 'Sum of Monetary' aayi thanne Python-ilekku varum
+
 df = dataset[['R_Score', 'F_Score', 'M_Score', 'Monetary']]
 correlation_matrix = df.corr()
 
