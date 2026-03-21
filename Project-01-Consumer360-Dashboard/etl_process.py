@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # 1. DATABASE CONNECTION
-# The '@' symbol in the password is encoded as '%40' for the connection string
+
 engine = create_engine('mysql+mysqlconnector://root:mysql%40123@localhost/Zaalima_Retail_DB')
 
 print("--- Starting ETL Process ---")
