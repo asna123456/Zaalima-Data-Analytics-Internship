@@ -37,7 +37,6 @@ Tech Used: PySpark (Window Functions), Pandas (for final CSV export).
 Exported summarized insights to a CSV file for Power BI connectivity.
 ### Week 8: Final Dashboard & Reporting
 - Successfully transitioned big data insights into an executive Power BI Control Tower Dashboard for real-time logistics monitoring.
-- Design Philosophy: Developed a "Neon-Dark" futuristic UI (Pinterest-inspired) for high readability and professional aesthetics.
 - Key Visuals & Metrics:
 - KPI Cards: Real-time tracking of Total Shipments (180.52K) and Total Delayed Shipments (98.98K).
 - Delivery Target Achievement (Gauge Chart): Monitored performance against a target of 150K shipments.
