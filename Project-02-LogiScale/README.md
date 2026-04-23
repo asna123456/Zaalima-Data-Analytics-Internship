@@ -4,11 +4,11 @@
 This project focuses on analyzing high-velocity shipping and logistics data using **PySpark** to handle big data volumes. The goal is to monitor route efficiency, calculate delivery delays, and forecast demand to optimize supply chain operations.
 
 ## Tech Stack
-- **Data Processing:** PySpark (Spark SQL & DataFrames)
-- **Programming:** Python (JDK 17 Environment)
-- **Libraries:** Pandas (for benchmarking), PySpark SQL Functions
-- **Visualization:** Power BI (Planned)
-- **Dataset:** DataCo Smart Supply Chain Dataset (180k+ records)
+Data Processing: PySpark (Spark SQL & DataFrames)
+Programming: Python (JDK 17 Environment)
+Libraries: Pandas (for benchmarking), PySpark SQL Functions
+Visualization: Power BI (Interactive Control Tower Dashboard)
+Dataset: DataCo Smart Supply Chain Dataset (180k+ records)
 
 ## Weekly Progress & Insights
 
