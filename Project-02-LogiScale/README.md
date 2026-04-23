@@ -35,8 +35,16 @@ Tech Used: PySpark (Window Functions), Pandas (for final CSV export).
 - Calculated Average Shipping Days for global logistics monitoring.
 - Conducted Data Integrity Validation (180,519 records verified).
 Exported summarized insights to a CSV file for Power BI connectivity.
-### Week 8: Final Dashboard & Reporting (Upcoming)
-- Transitioning insights into an executive Power BI dashboard for real-time monitoring.
+### Week 8: Final Dashboard & Reporting
+- Successfully transitioned big data insights into an executive Power BI Control Tower Dashboard for real-time logistics monitoring.
+- Design Philosophy: Developed a "Neon-Dark" futuristic UI (Pinterest-inspired) for high readability and professional aesthetics.
+- Key Visuals & Metrics:
+- KPI Cards: Real-time tracking of Total Shipments (180.52K) and Total Delayed Shipments (98.98K).
+- Delivery Target Achievement (Gauge Chart): Monitored performance against a target of 150K shipments.
+- Market Share Analysis (Treemap): Identified LATAM and Europe as the highest-volume markets.
+- Shipping Status Distribution (Pie Chart): Visualized the ratio of Late, On-time, and Canceled deliveries.
+- Interactive Slicers: Enabled dynamic filtering by Payment Method (Type) for granular analysis.
+- Outcome: The dashboard provides a comprehensive "Control Tower" view, allowing stakeholders to identify delay bottlenecks and market trends at a glance.
 
 ---
 *Internship Project at Zaalima Development Pvt. Ltd.*
