@@ -5,12 +5,33 @@ This project focuses on analyzing high-velocity shipping and logistics data usin
 
 ## Tech Stack
 - **Data Processing:** PySpark (Spark SQL & DataFrames)
-- **Programming:** Python
-- **Visualization:** Power BI
-- **Dataset:** DataCo Smart Supply Chain Dataset (Kaggle)
+- **Programming:** Python (JDK 17 Environment)
+- **Libraries:** Pandas (for benchmarking), PySpark SQL Functions
+- **Visualization:** Power BI (Planned)
+- **Dataset:** DataCo Smart Supply Chain Dataset (180k+ records)
 
-## Weekly Progress
-- **Week 5:** Environment setup, data ingestion, and performance benchmarking (Pandas vs PySpark).
-- **Week 6:** Big Data processing - Shipping delay analysis and route efficiency.
-- **Week 7:** Advanced analytics - Window functions for inventory levels.
-- **Week 8:** Final dashboard creation and executive reporting.
+## Weekly Progress & Insights
+
+### Week 5: Environment Setup & Data Ingestion
+- Successfully configured a Big Data environment by integrating **PySpark with JDK 17**.
+- Ingested a total of **180,519 records** from the Supply Chain dataset.
+- **Performance Benchmark:**
+  - **Pandas Load Time:** 1.44s
+  - **PySpark Load Time:** 6.21s 
+  *(Note: PySpark's initial overhead is compensated by its ability to scale with larger datasets.)*
+
+### Week 6: Shipping Delay Analysis
+- Developed an analytical logic to compare `Days for shipping (real)` against `Days for shipment (scheduled)`.
+- **Core Findings:**
+  - **Total Delayed Shipments:** 103,400 orders.
+  - **Overall Delay Percentage:** **57.28%**.
+- This high delay rate identifies a critical bottleneck in the current logistics model that requires route optimization.
+
+### Week 7: Advanced Analytics (Upcoming)
+- Implementing **Window Functions** to track inventory levels and rolling averages for shipping costs.
+
+### Week 8: Final Dashboard & Reporting (Upcoming)
+- Transitioning insights into an executive Power BI dashboard for real-time monitoring.
+
+---
+*Internship Project at Zaalima Development Pvt. Ltd.*
