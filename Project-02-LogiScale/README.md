@@ -27,8 +27,10 @@ This project focuses on analyzing high-velocity shipping and logistics data usin
   - **Overall Delay Percentage:** **57.28%**.
 - This high delay rate identifies a critical bottleneck in the current logistics model that requires route optimization.
 
-### Week 7: Advanced Analytics (Upcoming)
-- Implementing **Window Functions** to track inventory levels and rolling averages for shipping costs.
+### Week 7: Advanced Analytics
+- Implemented **PySpark Window Functions** for granular data analysis.
+- Calculated **Sales Ranking** per region to identify high-performing orders.
+- Derived **Average Shipping Days** per region, highlighting logistics trends across different global markets (e.g., Canada: 3.33 days, West Africa: 3.53 days).
 
 ### Week 8: Final Dashboard & Reporting (Upcoming)
 - Transitioning insights into an executive Power BI dashboard for real-time monitoring.
